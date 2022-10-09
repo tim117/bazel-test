@@ -1,0 +1,8 @@
+{
+  "java.import.maven.enabled": false,
+  "java.import.gradle.enabled": false,
+  "java.project.sourcePaths": ["java", "javatests"],
+  "java.import.bazel.enabled": true,
+  "java.import.bazel.src.path": "/java",
+  "java.import.bazel.test.path": "/javatests"
+}

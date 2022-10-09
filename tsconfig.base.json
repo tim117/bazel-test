@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "paths": {
+      "@libs/*": [
+        "./libs/*",
+        "./bazel-out/host/bin/libs/*",
+        "./darwin-fastbuild/bin/libs/*",
+        "./bazel-out/darwin_arm64-fastbuild/bin/libs/*",
+        "./bazel-out/k8-fastbuild/bin/libs/*",
+        "./bazel-out/x64_windows-fastbuild/bin/libs/*",
+        "./bazel-out/darwin-dbg/bin/libs/*",
+        "./bazel-out/k8-dbg/bin/libs/*",
+        "./bazel-out/x64_windows-dbg/bin/libs/*"
+      ]
+    }
+  },
+  "rootDirs": [
+    "libs",
+    "apps",
+    "apps/api",
+    "bazel-out/host/bin/libs",
+    "darwin-fastbuild/bin/libs",
+    "bazel-out/darwin_arm64-fastbuild/bin/libs",
+    "bazel-out/k8-fastbuild/bin/libs",
+    "bazel-out/x64_windows-fastbuild/bin/libs",
+    "bazel-out/darwin-dbg/bin/libs",
+    "bazel-out/k8-dbg/bin/libs",
+    "bazel-out/x64_windows-dbg/bin/libs",
+    "bazel-out/host/bin/apps",
+    "darwin-fastbuild/bin/apps",
+    "bazel-out/darwin_arm64-fastbuild/bin/apps",
+    "bazel-out/k8-fastbuild/bin/apps",
+    "bazel-out/x64_windows-fastbuild/bin/apps",
+    "bazel-out/darwin-dbg/bin/apps",
+    "bazel-out/k8-dbg/bin/apps",
+    "bazel-out/x64_windows-dbg/bin/apps",
+    "bazel-out/host/bin/apps/api",
+    "darwin-fastbuild/bin/apps/api",
+    "bazel-out/darwin_arm64-fastbuild/bin/apps/api",
+    "bazel-out/k8-fastbuild/bin/apps/api",
+    "bazel-out/x64_windows-fastbuild/bin/apps/api",
+    "bazel-out/darwin-dbg/bin/apps/api",
+    "bazel-out/k8-dbg/bin/apps/api",
+    "bazel-out/x64_windows-dbg/bin/apps/api"
+  ],
+  "include": ["libs/**/*.tsx?-", "apps/**/*.tsx?", "tools/**/*.tsx?"],
+  "exclude": ["node_modules", "java", "javatests"],
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Recommended"
+}

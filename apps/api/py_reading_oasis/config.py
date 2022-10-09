@@ -1,0 +1,4 @@
+class Config(object):
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///books.db'
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
+    SQLALCHEMY_POOL_RECYCLE = 3600
