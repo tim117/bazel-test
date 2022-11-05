@@ -1,4 +1,4 @@
-# Bazel With Everything
+# Bazel Test
 
 It is an exciting idea to have one build system managing your whole codebase. [Bazel](https://bazel.build/) is an open source build tool project to build and test your multi-language projects. Internally at Google Blaze (Google's internal version of the Bazel build tool) has been fairly easy to work with. Bazel with everything is my attempt to try and setup a project in multiple ways, to test how well bazel works, and to determine whether I would use it again starting a new project.
 
